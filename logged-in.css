@@ -1,0 +1,147 @@
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background-image: url("bg2.png") ;
+    background-attachment:fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+}
+@media screen and (max-width:1100px){
+.wrapper img{
+    display: none;
+}
+.container{
+    align-self: center;
+}
+.table-container{
+    width:50%;
+    overflow: auto ;
+}
+nav .btn{
+    content:"%";
+
+}
+}
+@media screen and (max-width:870px){
+.menu{
+    visibility: visible!important;
+}
+/* .nav a:nth-child(4){
+    display: none;
+}    
+ .nav a:nth-child(5){
+    display: none;
+}    
+.nav a:nth-child(6){
+    display: none;
+}
+.nav.responsive a{
+    float: none;
+    display: block;
+    text-align: left;
+} 
+.nav.responsive{
+    position: relative;
+}    */
+.dis{
+    display: none !important;
+}
+.dis.responsive{
+    display: block!important;
+}
+}
+nav {
+    position:sticky;
+    margin-bottom: 50px;
+    top:0;
+    left:0;
+    right:0;
+}
+.wrapper{
+    background-color: #E95160;
+    box-shadow: #ce0b0b;
+}
+.wrapper img{
+    width:500px;
+    height:500px;
+}
+.table-container{
+    background-color: white;
+    box-shadow: #ce0b0b;
+    overflow: auto;
+}
+.container{
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-right: 50px;
+    float:right;
+    opacity: 0.89;
+    overflow: auto;
+}
+.form-control:focus{
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+.nav-tabs .nav-link.active {
+    background-color:#ce0b0b;
+}
+.nav-link{
+  color:red;
+}
+.nav-link:hover{
+    color:rgb(245, 7, 7);
+}
+.nav-link:active{
+    color:rgb(245, 7, 7);
+}
+.menu{
+display: inline-block;
+visibility: hidden;
+cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+width: 35px;
+height: 5px;
+background-color: #E95160 ;
+margin: 6px 0;
+transition: 0.4s;
+}
+
+.change .bar1 {
+-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+-webkit-transform: rotate(45deg) translate(-8px, -8px);
+transform: rotate(45deg) translate(-8px, -8px);
+}
+.check .notRegister{
+    float:left;
+}
+.small p{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+.smallf{
+    font-size:18px;
+}
+.redB{
+    background-color:rgb(238, 31, 31);
+    color:white;
+
+}
+form{
+    color:rgb(0, 0, 0);
+}
+
