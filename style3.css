@@ -1,0 +1,73 @@
+body,html{
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+.bd{
+    height: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.left{
+    background-image: url("bg.png");
+    background-size:500px;
+    background-color:purple;
+    position:relative;
+    width: 50%;
+    height: 100%;
+}
+.left img{
+    position:absolute;
+    overflow: clip;
+    height: 100%;
+    z-index: 1;
+}
+.wrapper{
+    height: 100%;
+    width:50%;
+    margin:0;
+    padding:0;
+    background-color: white;
+}
+.container{
+    background-color:white;
+    border-radius: 10px;
+    margin-right: 50px;
+    width: 400px;
+    opacity: 1;
+}
+.form-control:focus{
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+.register{
+    display: none;
+}
+.check .check-div{
+    float: left;
+}
+.notRegister{
+    clear: both;
+}
+.check p a{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+.smallf{
+    font-size:18px;
+}
+.redB{
+    background-color:rgb(218, 10, 10);
+    color:white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px 2px rgb(255, 9, 9);
+
+}
+form{
+    color:#8cc7bc;
+}
+.footer{
+    flex-wrap: wrap;
+}
