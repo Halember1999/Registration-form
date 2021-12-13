@@ -11,9 +11,6 @@ body{
     background-size:cover;
 }
 @media screen and (max-width:1100px){
-.wrapper img{
-    display: none;
-}
 .container{
     align-self: center;
 }
@@ -22,13 +19,10 @@ body{
     overflow: auto ;
 }
 }
-
-.wrapper{
-    background-color: #E95160;
-}
-
 .table-container{
-    margin: 14% 15% ;width:70%; height:400px;
+    margin: 180px 15% ;
+    width:70%;
+    height:400px;
     background-color: white;
     overflow: auto;
 }
@@ -36,7 +30,7 @@ body{
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
     }
 .container{
-    margin: 14% 15% ;
+    margin: 180px 15% ;
     width:70%; 
     height:400px;
 }
@@ -60,6 +54,10 @@ input[type="file"]::before{
 .form-control:focus{
     -webkit-box-shadow: none!important;
     box-shadow: none!important;
+}
+.nav-item:focus{
+  background-color:#E95160 !important;
+  text-decoration-color:white !important;
 }
 
 .bar1, .bar2, .bar3 {

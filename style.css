@@ -30,6 +30,7 @@ body,html{
     z-index:-1;
     transform: rotate(5deg);
 }
+
 .container{
     background-color:white;
     border-radius: 0px;
