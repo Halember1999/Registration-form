@@ -1,0 +1,86 @@
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background-image: url("/bg1.png") ;
+    background-attachment:fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+}
+@media screen and (max-width:1100px){
+.wrapper img{
+    display: none;
+}
+.container{
+    align-self: center;
+}
+.table-container{
+    width:50%;
+}
+nav .btn{
+    content:"%";
+
+}
+}
+
+.wrapper{
+    background-color: #E95160;
+    box-shadow: #ce0b0b;
+}
+.wrapper img{
+    width:500px;
+    height:500px;
+}
+.table-container{
+    background-color: white;
+    box-shadow: #ce0b0b;
+}
+.container{
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-right: 50px;
+    float:right;
+    opacity: 0.89;
+    overflow: auto;
+}
+.form-control:focus{
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+.nav-tabs .nav-link.active {
+    background-color:#ce0b0b;
+}
+.nav-link{
+  color:red;
+}
+.nav-link:hover{
+    color:rgb(245, 7, 7);
+}
+.nav-link:active{
+    color:rgb(245, 7, 7);
+}
+.check .notRegister{
+    float:left;
+}
+.small p{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+.smallf{
+    font-size:18px;
+}
+.redB{
+    background-color:rgb(238, 31, 31);
+    color:white;
+
+}
+form{
+    color:rgb(0, 0, 0);
+}
+
