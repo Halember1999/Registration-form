@@ -25,7 +25,7 @@
             <a href="#hospitalRequest" class="nav-link text-danger mx-2" id="nav-request-tab"data-toggle="tab" role="tab" aria-controls="viewRequest" aria-selected="false">Hospital Requests</a>
             </li>
            <li class="nav-item">
-            <a href="#donorStatus" class="nav-link text-danger mx-2" id="nav-status-tab" data-toggle="tab" role="tab" aria-controls="viewStatus" aria-selected="false">Donor Status</a>
+            <a href="#donorStatus" class="nav-link text-danger mx-2" id="nav-status-tab" data-toggle="tab" role="tab" aria-controls="viewStatus" aria-selected="false">Add Blood</a>
            </li>
             <form class="form-inline">
            <button type="button" class="nav-item nav-link btn border-danger text-light bg-danger p-2 ml-auto mr-1" >Log Out</button>
@@ -42,7 +42,7 @@
    <div class="tab-content" id="nav-tabContent">
        <div class="tab-pane fade show active" id="viewDonor" role="tabpanel" aria-labelledby="nav-donor-tab">
            <div class="table-container shadow d-flex flex-column justify-content-start align-items-center text-center rounded p-4">
-            <header class="text-center text-danger"><h4>Donor List</h4></header>
+            <!-- <header class="text-center text-danger"><h4>Donor Status</h4></header> -->
             <div class="align-self-end d-inline-flex flex-row justify-content-end border my-1">
                 <span class="input-group-append p-2">
                     <i class="bi bi-search"></i>
@@ -52,27 +52,35 @@
             <table class="table table-striped table-bordered text-danger mx-auto mb-4">
                <thead>
                    <tr>
-                       <th>Serial No</th>
                        <th>Donor Name</th>
                        <th>Blood Group</th>
+                       <th>Certificate</th>
+                       <th>Age</th>
+                       <th>Action</th>
                    </tr>
                </thead>
                <tbody id="table1">
                    <tr>
-                       <th>1</th>
                        <td>Name1</td>
                        <td>A+</td>
+                       <td><img src="img.jpg" alt="certificate" /></td>
+                       <td>22</td>
+                       <td>Approved</td>
                    </tr>
                    <tr>
-                       <th>2</th>
-                       <td>Name2</td>
-                       <td>A+</td>
-                   </tr>
+                    <td>Name2</td>
+                    <td>A+</td>
+                    <td><img src="img.jpg" alt="certificate"></td>
+                    <td>22</td>
+                    <td>Approved</td>
+                </tr>
                    <tr>
-                       <th>3</th>
-                       <td>Name3</td>
-                       <td>B+</td>
-                   </tr>
+                    <td>Name3</td>
+                    <td>A+</td>
+                    <td><img src="img.jpg" alt="certificate"></td>
+                    <td>22</td>
+                    <td>Approved</td>
+                </tr>
                </tbody>
            </table>
            </div>
@@ -114,34 +122,38 @@
         </div>
         <div class="tab-pane fade" id="donorStatus" role="tabpanel" aria-labelledby="nav-request-tab" >
             <div class="table-container shadow text-center d-flex flex-column justify-content-center align-items-center rounded p-5">
-                <header class="text-center text-danger"><h4>Donor Status</h4></header>
+                <header class="text-center text-danger"><h4>Add Blood</h4></header>
                 <table class="table table-striped table-bordered text-danger mx-auto" >
                     <thead>
                         <tr>
-                            <th>Serial No</th>
-                            <th>Donor Name</th>
+                            <th>Name</th>
+                            <th>Age</th>
                             <th>Blood Group</th>
-                            <th>Status</th>
+                            <th>Units</th>
+                            <th>Add Blood</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th>1</th>
                             <td>Name1</td>
+                            <th>1</th>
                             <td>A+</td>
-                            <td><button class="btn text-light bg-danger">Approved</button></td>
+                            <td>2</td>
+                            <td><button class="btn text-light bg-danger">Add</button></td>
                         </tr>
                         <tr>
-                            <th>2</th>
                             <td>Name2</td>
+                            <th>2</th>
                             <td>A+</td>
-                            <td><button class="btn text-light bg-danger">Not Approved</button></td>
+                            <td>2</td>
+                            <td><button class="btn text-light bg-danger">Add</button></td>
                         </tr>
                         <tr>
-                            <th>3</th>
                             <td>Name3</td>
+                            <th>3</th>
                             <td>A+</td>
-                            <td><button class="btn text-light bg-danger">Pending</button></td>
+                            <td>2</td>
+                            <td><button class="btn text-light bg-danger">Add</button></td>
                         </tr>
                     </tbody>
                 </table>
